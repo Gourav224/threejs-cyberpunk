@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Three js</title>
+	</head>
+	<body class="bg-black w-screen min-h-screen font-[Rajdhani]">
+		<div class="main w-full">
+			<nav class="w-full fixed top-0 left-0 px-10 py-3 flex justify-between items-center">
+				<img
+					src="https://preview.redd.it/3d-rendered-the-cyberpunk-logo-using-blender-v0-khopj82wqee91.png?width=1080&crop=smart&auto=webp&s=0e62e74ba8b5ef6191228e855079491cfa56f57b"
+					class="w-[160px] mix-blend-screen filter saturate-150 contrast-125"
+				/>
+				<div
+				class="flex items-center gap-5"
+				>
+					<a href="#" class="text-white hover:text-blue-400 transition-colors tracking-tight">Home</a>
+					<a href="#" class="text-white hover:text-blue-400 transition-colors tracking-tight">Games</a>
+					<a href="#" class="text-white hover:text-blue-400 transition-colors tracking-tight">About</a>
+					<a href="#" class="text-white hover:text-blue-400 transition-colors tracking-tight">Contact</a>
+				</div>
+			</nav>
+			</nav>
+
+			<div class="w-full h-screen overflow-hidden">
+				<img
+					src="https://preview.redd.it/3d-rendered-the-cyberpunk-logo-using-blender-v0-khopj82wqee91.png?width=1080&crop=smart&auto=webp&s=0e62e74ba8b5ef6191228e855079491cfa56f57b"
+					class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 mix-blend-screen filter saturate-150 contrast-125"
+				/>
+				<div class="w-96 h-96 -z-10 absolute rounded-full bg-blue-600 blur-[96px]   top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  " ></div>
+				<canvas id="canvas"></canvas>
+			</div>
+			<div class="w-full h-screen bg-zinc-900">
+				<div class="w-full h-full "></div>
+			</div>
+		</div>
+		<script type="module" src="/main.js"></script>
+	</body>
+</html>
